@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-}
 
-module.exports = nextConfig
+
+module.exports =module.exports = {
+  target: 'server',
+  watchOptions: {
+    poll: 1000,
+  },
+};
